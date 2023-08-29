@@ -1,0 +1,43 @@
+/* 320px - 480px = mobile */
+/* Em mobile first não precisa de MQ */
+
+/* 480px - 768px = tablet */
+@media (min-width: 480px) {
+    .capa img{
+        width: 480px;
+        height: 300px;
+    }
+    #fotos{
+        width: 500px;
+        height: 300px;
+    }
+}
+
+/* 768px - 1024px = telas menores, laptops */
+@media (min-width: 768px) {
+    .capa img{
+        width: 768px;
+        height: 400px;
+    }
+    #fotos{
+        width: 700px;
+        height: 400px;
+    }
+}
+
+/* 1024px - 1200px = desktop */
+@media (min-width: 1024px) {
+    .capa img{
+        width: 900px;
+        height: 500px;
+    }
+    #fotos{
+        width: 800;
+        height: 500px;
+    }
+}
+
+/* 1200 e + = telas maiores, tvs */
+/* @media (min-width: 1200px) {
+ 
+} */

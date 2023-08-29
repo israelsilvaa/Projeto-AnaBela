@@ -1,0 +1,81 @@
+body{
+	background:  url('../imagens/fundo.png');
+	font: 16px;
+}
+
+#corpo{
+	max-width: 900px;
+	font-weight: 900;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+#sobre_ana{
+	max-width: 900px;
+	background:#b9af86;
+}
+
+#fotos{
+	margin-left: 30px;
+	border-width: 5px;
+	border-color: #aa9687;
+	border-style: solid;
+	width: 290px;
+	height: 230px;
+}
+
+.container-fotos{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.capa{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.capa img{
+	width: 350px;
+	height: 280px;
+}
+
+#menu{
+	/* color: #4b66a; */
+	color: #c2c2c2;
+	text-decoration: none;
+	font-weight: 900;
+	padding: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 18px;
+}
+
+p{
+	margin-left: 30px;
+	max-width: 850px;
+}
+
+.justificar{
+	text-align: justify;
+	margin-right: 20px;
+}
+
+a{
+	color: #4b566a;
+	text-decoration: none;
+}
+h2{
+	color: #828271;
+	margin-left: 30px;
+}
+
+.rodape{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
